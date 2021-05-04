@@ -7,9 +7,9 @@ int main()
     int n,i=0,j;
     char str[200];
     scanf("%s",str);
-    n=strlen(a);
+    n=strlen(str);
     for(j=i+1;j<n-1-i;j++){
-        printf("%c",a[j]);
+        printf("%c",str[j]);
     }
 
 }
